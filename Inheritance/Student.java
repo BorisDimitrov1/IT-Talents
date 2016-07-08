@@ -14,12 +14,11 @@ public class Student extends Person{
 		System.out.println("Ocenka: " + this.score);
 	}
 
-	public float getScore() {
+    float getScore() {
 		return score;
 	}
 
-	public void setScore(float score) {
+	void setScore(float score) {
 		this.score = score;
 	}
-
 }
